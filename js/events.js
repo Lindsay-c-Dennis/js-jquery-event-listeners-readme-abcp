@@ -11,6 +11,7 @@ function frameIt() {
   $('img').on('load', function() {
     $('img').addClass('tasty');
   })
+}
  //alerts when user presses G key
 function pressIt() {
     $('input').on('keydown', function(e) {
@@ -19,7 +20,7 @@ function pressIt() {
       }
     })
   }
-}
+
 //alerts when form is submitted
 function submitIt() {
   $('form').on('submit', function() {alert('Your form is going to be submitted now.')});
